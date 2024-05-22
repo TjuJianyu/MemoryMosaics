@@ -66,7 +66,7 @@ python prepare.py
 python train_memory_mosaics.py --batch_size [batch_size]
 ```
 
-To reproduce the BabiStories results (batch_size = 512) in the [Memory Mosaic paper](https://arxiv.org/abs/2405.06394), one need to either distribute batches to different GPUs (e.g. `torchrun --standalone --nproc_per_node=8 train_memory_mosaics.py --batch_size 64 `) or 
+To reproduce the BabiStories results (batch_size = 512) in the Memory Mosaic paper, one need to either distribute batches to different GPUs (e.g. `torchrun --standalone --nproc_per_node=8 train_memory_mosaics.py --batch_size 64 `) or 
 use `gradient_accumulation_steps` to simulate large batches (e.g. `torchrun --standalone --nproc_per_node=1 --batch_size 8 train_memory_mosaics.py --batch_size 64 --gradient_accumulation_steps 8`). 
 
 
