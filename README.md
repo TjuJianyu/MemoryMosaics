@@ -1,7 +1,5 @@
 # Memory Mosaics
 
-https://arxiv.org/abs/2405.06394
-
 Memory Mosaics are networks of associative memories working in concert to achieve a prediction task of interest. Like transformers, memory mosaics possess compositional capabilities and in-context learning capabilities. Unlike transformers, memory mosaics achieve these capabilities in comparatively transparent ways. We demonstrate these capabilities on toy examples and we also show that memory mosaics perform as well or better than transformers on medium-scale language modeling tasks.
 
 **License**: This code is released under the [Apache-2.0 License](LICENSE.txt).
